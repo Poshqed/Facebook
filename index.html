@@ -1,50 +1,33 @@
-<html>
-    <head>
-        <title> Facebook </title>
-    <style>
-        h2 {color: rgb(3, 111, 252);
-        font-family: Helvetica, sans-serif;
-    text-align: center;
-}
-input {background-color: rgb(222, 235, 252);
-    height: 35px; opacity: 0.5; border-width: 0.01cm;
-}
-input.submit{opacity: 1; height: 35px;}
-::-webkit-input-placeholder { text-align: center;
-color: antiquewhite;
-font-weight: bold;}
-body {background-color: #f3f5f6;}
-h3{overflow: hidden;text-align: center;}
-h3:before,
-h3:after{background-color: #000;
-content: "";
-display: inline-block;
-height: 1px;
-position: relative;
-vertical-align: middle;
-width: 50%;}
-h3:before{right: 0.5em;
-margin-left: -50%;}
-h3:after{left: 0.5em;
-margin-right: -50%;}
-        </style>
-    </head>
-    <body>
-        <h2>facebook</h2>
-        <form>
-<input type="text" size="60px" value="  Mobile Number or email address"> <br>
-<input type="text" size="60px" style="margin: 8px 0px;" value="  Password">
-<br>
-<input class="submit" type="search" size="60px" style="background-color: rgb(55, 55, 255);" placeholder="Log In" >
-<p style="font-family: Arial, Helvetica, sans-serif; text-align: center; color: rgb(3, 111, 252);;"> Forgotten password?</p>
-</form>
-<h3 style="margin-bottom: 25px; font-size: small; font-family: Arial, Helvetica, sans-serif; opacity: 0.5;">or</h3>
-<input class="submit" type="search" size="30px" style="margin-left: 120px; background-color: rgb(7, 114, 16); font-size:15px; text-align: center;" placeholder="Create New Account" >
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Facebook</title>
+</head>
+<body>
+<section>
+    <h1>facebook</h1>
+    <p>Facebook helps you connect and  share <br> with the people in your life.</p>
+</section>
+<div>
+    <form action="submit">
+        <input type="email" placeholder="Email address or phone number">
+        <br>
+        <input type="password" placeholder="Password">
+        <br>
+        <button class="blue" type="submit"> Log In </button>
+        <p><a href="#">Forgotten password?</a></p>
+    <br><hr>
+        <button class="green">Create New Account</button>
+    </form>
+
+    <span><a href="#">Create a Page</a> for a celebrity, brand or business</span>
+
+</div>
+<span class="reveal" style="display: none;"><a href="#">Create a Page</a> for a celebrity, brand or business</span>
+
 </body>
-<footer style="font-family: Arial, Helvetica, sans-serif; margin-top: 100px; text-align: justify;">
-    <p style="font-weight: bold; color: gray; margin-bottom: -6px; text-align: justify-self: start;"> &emsp;&emsp;&emsp; English(UK)  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Hausa</p>
-    <p style="color: rgba(92, 92, 255, 0.781); margin-bottom: -6px;">&emsp;&emsp;Français(France) &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Português(Brasil) </p> 
-    <p style="color: rgba(92, 92, 255, 0.781); margin-bottom: -6px;"> &emsp;&emsp;&emsp;&emsp;Español&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;العربية</p>
-    <p style="color: rgba(92, 92, 255, 0.781); margin-bottom: -6px;"> &emsp;&emsp;&emsp;&emsp;Deutsch</p>
-</footer>
 </html>
